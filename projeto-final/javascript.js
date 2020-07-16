@@ -113,7 +113,100 @@
 
 //  6.14 o html é uma linguagem de contrução, javascript é a linguagem de programação e css é a linguagem para dar estilos.
 
+
+
+
+
  
+// Questão 8
+
+
+var num1 = parseInt(prompt('digite um numero'));
+var num2 = parseInt(prompt('digite um numero'));
+var num3 = parseInt(prompt('digite um numero'));
+var num4 = parseInt(prompt('digite um numero'));
+var num5 = parseInt(prompt('digite um numero'));
+const pularLinha = '<br>'
+
+document.write('Primeiro numero: ' + num1 + pularLinha);
+document.write('Segundo numero: ' + num2 + pularLinha);
+document.write('Terceiro numero: ' + num3 + pularLinha);
+document.write('Quarto numero: ' + num4 + pularLinha);
+document.write('Quinto numero: ' + num5 + pularLinha);
+
+
+var resto1 = num1 % 2;
+var resto2 = num2 % 2
+var resto3 = num3 % 2
+var resto4 = num4 % 2
+var resto5 = num5 % 2
+
+
+if(resto1 % 2 == 0){
+    alert('voce digitou um numero par')
+}else{
+    alert('Voce digitou um numeroimpar')
+}
+
+if(resto2 % 2 == 0){
+    alert('voce digitou um numero par')
+}else{
+    alert('Voce digitou um numeroimpar')
+}
+
+
+if(resto3 % 2 == 0){
+    alert('voce digitou um numero par')
+}else{
+    alert('Voce digitou um numeroimpar')
+}
+
+if(resto4 % 2 == 0){
+    alert('voce digitou um numero par')
+}else{
+    alert('Voce digitou um numeroimpar')
+}
+
+if(resto5 % 2 == 0){
+    alert('voce digitou um numero par')
+}else{
+    alert('Voce digitou um numeroimpar')
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
